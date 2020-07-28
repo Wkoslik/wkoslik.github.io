@@ -156,25 +156,31 @@ nav a{
     .learn-image img {
     padding-left: 0;
     padding-top: 0;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
     width: 100%;
   }
     .new{
       width: 100%;
-      padding-left: 16px;
+      padding-left: 1rem;
       padding-right: 1rem;
     }
+
+    .new p{
+        font-size: 5vw;
+    }
+
+    .new h1{
+        font-size: 8vw;
+    }
+
     .button{
+        justify-content: center;
+        align-items: center;
       width: 75%;
       background-color: #9b9b9b;
       color: #ffffff;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 32px;
-      text-align: center;
-      padding-top: 0.5rem;
-      padding-bottom: 0.5rem;
-      font-size: 1.5rem;
+      margin-bottom: 2rem;
+      font-size: 5vw;
       font-weight: normal;
     }
   }
@@ -242,6 +248,10 @@ nav a{
     font-size: 1.25rem;
 }
 
+.guest h3, .guest p, .guest a{
+    padding-left: 1rem;
+}
+
 .orientation img{
     padding-top: 2rem;
 }
@@ -261,20 +271,25 @@ nav a{
         display: inline-flex;
         background-color: #f3f5f5;
         width: 100%;
+        padding: 0;
+        margin: 0;
     }
-    
+
     .information{
         display: none;
     }
     .other{
         width: 100%;
+        padding: 0;
+        margin: 0;
     }
+
     .orientation, .campus, .guest{
         width: 100%;
         display: inline-flex;
         flex-direction: column;
     }
- 
+
     .other img{
       padding: 1rem;
       width: 90%;
@@ -284,16 +299,22 @@ nav a{
     .text{
       flex-direction: column;
       padding-bottom: 1rem;
+      justify-content: flex-start;
+      align-content: flex-start;
     }
     
+    .text h3{
+        font-size: 8vw;
+    }
+
     .text p{
-        font-size: 1.25rem;
+        font-size: 5vw;
         font-weight: lighter;
     }
     
     .text a{
         color: #4a90e2;
-        font-size: 1.25rem;
+        font-size: 5vw;
         margin-bottom: 1rem;
     }
     
@@ -411,6 +432,7 @@ nav a{
 @media screen and (max-width: 950px){
     #learning{
         background-color:#D8D8D8;
+        font-size: 8vw;
     }
 
     .learning{
@@ -429,16 +451,17 @@ nav a{
     .software, .computer, .design,
     .data, .business, .marketing{
         background-color: #f3f5f5;
-        text-align: left;
+        text-align: center;
         margin: 8px;
+    
     }
     
     .marketing{
-        margin-bottom: 32px;
+        margin-bottom: 2rem;
     }
 
     #title{
-        font-size: 1.5rem;
+        font-size: 5.5vw;
         padding-left: 1rem;
     }
     
@@ -516,6 +539,7 @@ nav a{
         padding-bottom: 1rem;
         background-color: #f3f5f5;
         margin: auto;
+        font-size: 8vw;
     }
     .thesis{
         display: inline-block;
@@ -578,6 +602,7 @@ nav a{
     
       .copyright{
           padding-left: 0;
+          font-size: 3vw;
       }
     
       .privacy{
