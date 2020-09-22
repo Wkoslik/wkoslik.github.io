@@ -406,12 +406,18 @@ nav li {
   }
 
   .mobile {
-    display: block
+    display: block;
+    border: 1px solid red;
   }
 
   .headerimg {
     width: 30%
   }
+
+  .name1{
+    border: 1px solid white;
+  }
+
 }
 
 @media screen and (max-width:550px) {
