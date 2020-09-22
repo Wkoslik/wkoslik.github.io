@@ -408,26 +408,17 @@ nav li {
 
   .mobile {
     display: block;
-    border: 1px solid red;
+
   }
 
   .headerimg {
     width: 30%;
-    border: 1px solid black
   }
 
   .name1{
-    border: 1px solid fuchsia;
     display:flex;
     align-items: center;
     height: 100%
-  }
-
-  .namenav{
-    border: 1px solid orangered;
-  }
-  .name1 h1{
-    border: 1px solid blue;
   }
 
 }
