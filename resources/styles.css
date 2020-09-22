@@ -249,7 +249,8 @@ p {
 header {
   background: linear-gradient(rgba(18, 60, 105, .3), rgba(18, 60, 105, .3)), url('imgs/header\ texture.jpg');
   color: #f8f4f1;
-  display: flex
+  display: flex;
+  width: 100%
 }
 
 .sticky {
@@ -257,6 +258,7 @@ header {
   top: 0;
   left: 0;
   height: 11%;
+  z-index: 7;
   background-color: rgba(18, 60, 105, .8)
 }
 
