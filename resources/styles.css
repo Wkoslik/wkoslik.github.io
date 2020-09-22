@@ -247,7 +247,7 @@ p {
 }
 
 header {
-  background: linear-gradient(rgba(18, 60, 105, .3), rgba(18, 60, 105, .3)), url('imgs/header\ texture.jpg');
+  background: linear-gradient(rgba(18, 60, 105, .3), rgba(18, 60, 105, .3)), url('imgs/header\ texture.jpg') contain;
   color: #f8f4f1;
   display: flex;
   width: 100%
