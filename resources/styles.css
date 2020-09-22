@@ -206,7 +206,8 @@ p {
   }
 
   h3 {
-    font-size: 1.674em
+    font-size: 1.674em;
+    width: 75%
   }
 }
 
