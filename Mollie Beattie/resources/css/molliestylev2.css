@@ -26,7 +26,7 @@ a:hover{
 }
 
 a:visited{
-    color: lightblue;
+    color: whitesmoke;
 }
 
 /* Header */
@@ -258,7 +258,6 @@ header{
         align-items: center;
         margin: auto;
         padding: auto;
-        border: 1px solid blue;
       }
       
       #headercontent .typing{
