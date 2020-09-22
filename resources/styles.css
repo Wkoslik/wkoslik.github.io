@@ -416,10 +416,9 @@ nav li {
   }
 
   .name1{
-    border: 1px solid fuchsia;
+    border: 1px solid white;
     display:flex;
     align-items: center;
-    height: 100%
   }
 
   .namenav{
@@ -456,7 +455,7 @@ nav li {
 
 @media screen and (max-width:420px) {
   .mobile button {
-    margin-top: -9%
+    margin-top: -11%
   }
 
   h1 {
@@ -466,14 +465,14 @@ nav li {
 
 @media screen and (max-width:324px) {
   .mobile button {
-    margin-top: -10%;
+    margin-top: -13%;
     margin-left: 86%
   }
 }
 
 @media screen and (max-width:250px) {
   .mobile button {
-    margin-top: -11%
+    margin-top: -15%
   }
 }
 
