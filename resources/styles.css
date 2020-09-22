@@ -418,6 +418,9 @@ nav li {
     border: 1px solid white;
   }
 
+  .namenav{
+    border: 1px solid orangered;
+  }
   .name1 h1{
     border: 1px solid blue;
   }
