@@ -418,6 +418,10 @@ nav li {
     border: 1px solid white;
   }
 
+  .name1 h1{
+    border: 1px solid blue;
+  }
+
 }
 
 @media screen and (max-width:550px) {
