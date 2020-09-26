@@ -645,19 +645,19 @@ nav li {
 .colmarcontainer,
 .galaxcontainer,
 .molliecontainer,
-.osdcontainer {
+.osdcontainer, .shedfitcontainer, .aspencontainer {
   width: 30%;
   display: flex;
   align-items: center
 }
 
 .galaxcontainer,
-.molliecontainer {
+.molliecontainer, .shedfitcontainer {
   border-bottom: 1px solid #a9a9a9
 }
 
 .colmarcontainer,
-.galaxcontainer {
+.galaxcontainer, .molliecontainer , .osdcontainer {
   border-right: 1px solid #a9a9a9;
   justify-content: flex-end
 }
@@ -665,21 +665,21 @@ nav li {
 .colmar,
 .galax,
 .mollie,
-.osd {
+.osd, .aspen, .shedfit {
   padding: 32px
 }
 
 .colmar p,
 .galax p,
 .mollie p,
-.osd p {
+.osd p, .aspen p, .shedfit p {
   margin: auto
 }
 
 .colmar img,
 .galax img,
 .mollie img,
-.osd img {
+.osd img, .aspen img, .shedfit img {
   width: 50%;
   height: auto;
   margin: auto;
@@ -693,14 +693,14 @@ nav li {
   .colmarcontainer,
   .galaxcontainer,
   .molliecontainer,
-  .osdcontainer {
-    width: 40%
+  .osdcontainer, .aspencontainer , .shedfitcontainer {
+    width: 30%
   }
 
   .colmar,
   .galax,
   .mollie,
-  .osd {
+  .osd, .aspen, .shedfit {
     padding: 2vw
   }
 }
@@ -710,7 +710,7 @@ nav li {
   .colmarcontainer,
   .galaxcontainer,
   .molliecontainer,
-  .osdcontainer {
+  .osdcontainer, .aspencontainer, .shedfitcontainer {
     width: 50%
   }
 }
