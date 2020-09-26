@@ -734,7 +734,7 @@ nav li {
   .colmarcontainer,
   .galaxcontainer,
   .molliecontainer,
-  .osdcontainer {
+  .osdcontainer, .aspencontainer, .shedfitcontainer {
     display: flex;
     border-bottom: 1px solid #a9a9a9;
     margin: auto;
@@ -749,7 +749,7 @@ nav li {
   .colmar img,
   .galax img,
   .mollie img,
-  .osd img {
+  .osd img, .aspen img, .shedfit img {
     width: 100%;
     padding-left: 1rem
   }
@@ -757,21 +757,21 @@ nav li {
   .colmar,
   .galax,
   .mollie,
-  .osd {
+  .osd, .aspen, .shedfit {
     display: flex
   }
 
   .colmar a,
   .galax a,
   .mollie a,
-  .osd a {
+  .osd a, .shedfit a, .aspen a {
     width: 30%
   }
 
   .colmar p,
   .galax p,
   .mollie p,
-  .osd p {
+  .osd p , .shedfit p, .aspen p {
     width: 50%
   }
 }
