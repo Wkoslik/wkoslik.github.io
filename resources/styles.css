@@ -259,13 +259,13 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  height: 11%;
   z-index: 7;
   background-color: rgba(18, 60, 105, .8)
 }
 
 .sticky nav {
-  width: 95%
+  width: 95%;
+  height: 100%
 }
 
 .sticky a {
