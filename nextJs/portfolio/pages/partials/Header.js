@@ -1,7 +1,7 @@
 export default function Header(){
     return(
         <header>
-            <img src='/initials header.png' alt="Whitney Kosliks initials- wk"/>
+            <img src='/initialsheader.png' alt="Whitney Kosliks initials- wk"/>
             <h1>Whitney Koslik</h1>
             <navbar><ul>
                 <li>Resume</li>
