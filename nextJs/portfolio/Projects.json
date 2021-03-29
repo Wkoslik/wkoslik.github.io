@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "name": "ChiknTindr",
+            "img": "http://placekitten.com/200/200",
+            "short_description": "This is a short description for ChiknTindr",
+            "long_description": "This is a long description for ChiknTindr",
+            "url": ""
+        },
+        {
+            "id": 1,
+            "name": "SoyVeg",
+            "img": "http://placekitten.com/200/200",
+            "short_description": "Short Desc",
+            "long_description": "Long Desc",
+            "url": ""
+        },
+        {
+            "id": 2,
+            "name": "Outsmart Data",
+            "img": "http://placekitten.com/200/200",
+            "short_description": "Short Desc",
+            "long_description": "Long Desc",
+            "url": ""
+        }
+    ]
+}
