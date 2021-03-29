@@ -3,7 +3,7 @@
     {
         "id": 0,
         "name": "Abby Zurbrick, M.A., PMP",
-        "img": "./resources/imgs/Abby Zurbrick.jpg",
+        "img": "/recs/Abby Zurbrick.jpg",
         "title": "People | Learning | Change",
         "date": "July 31, 2020",
         "recommendation": "If you have the privilege to work with Whitney, you will quickly notice her agility in thinking of her audiences with strategic compassion. Whitney is gifted in developing communications and resources that positively engage and meet audiences where they are. Furthermore, she is a powerful project manager that helps stakeholders come together and find alignment with key priorities and the possible paths to success. Her patience and tenacity are a gift to any team, and I am honored to recommend her!",
@@ -12,7 +12,7 @@
     {
         "id": 1,
         "name": "Parker Henderson",
-        "img": "./resources/imgs/Parker Henderson.jpg",
+        "img": "/recs/Parker Henderson.jpg",
         "title": "Director of Front Office at Hilton - All Suites | Focused Service Brands",
         "date": "July 10, 2020",
         "recommendation": "Whitney came to Hilton with a lot of experience from another competitor. As someone that has been with Hilton since 2003, I tend to be skeptical working with those new to Hilton…but Whitney quickly demonstrated that she was not like the others. Whitney impressed me as soon as I met her. She instantly demonstrated a sense of pride and passion for a company she had just started with – so eager to learn, integrate and innovate. One of her first tasks was to be the point person for the Corporate Front Office Team. She was responsible for communicating and implementing the corporate Hilton Honors programs to the hotel level leaders. I adored partnering with Whitney on this task; she has a desire to make a positive impact and for thousands of hotels in North America, she became the voice of Hilton Honors. She is knowledgeable, approachable, and assisted hotels in delivering benefits and rewards to our most loyal guests. All around, Whitney is a strong leader and will make a positive impact on any project – just give her the opportunity to jump in!",
@@ -21,7 +21,7 @@
     {
         "id": 2,
         "name": "Ted Silberman",
-        "img": "./resources/imgs/Ted Silberman.jpg",
+        "img": "/recs/Ted Silberman.jpg",
         "title": "Associate at McKinsey & Company",
         "date": "October 23, 2017",
         "recommendation": "Whitney is a hardworking, analytically driven individual who enjoys digging into a business challenge and finding a viable solution. As a revenue manager, she was constantly looking for opportunities to drive RevPAR and focused intently on the properties in her portfolio that were the most difficult to improve. This dedication is an asset that made her invaluable to the team. Furthermore, her straightforward communication style helped her efficiently solve problems, build trust with partners, and have the tough conversations that are often necessary in business.",
@@ -30,7 +30,7 @@
     {
         "id": 3,
         "name": "Noreen Collins",
-        "img": "./resources/imgs/Noreen Collins.jpg",
+        "img": "/recs/Noreen Collins.jpg",
         "title": "Revenue Management Specialist",
         "date": "March 10, 2017",
         "recommendation": "Whitney has been a great addition to the Choice RM team. She has an analytical thought process that allows her to help multiple hotels in various markets develop effective and highly successful strategies to grow revenues and steal market share. Whitney has done a great job sharing her knowledge of revenue management while gaining the trust of her hotel teams and owners. Her honest and straightforward approach and communications help her to build solid relationships with her hotels, the various departments within the company as well as her fellow revenue managers. Whitney has proven herself to be a true team player and if given the opportunity, I would welcome her to be a part of my team again.",
@@ -39,7 +39,7 @@
     {
         "id": 4,
         "name": "Patrick Matheson",
-        "img": "./resources/imgs/Patrick Matheson.jpg",
+        "img": "/recs/Patrick Matheson.jpg",
         "title": "Regional Director of Revenue Management at Hyatt Hotels Corporation",
         "date": "January 12, 2016",
         "recommendation": "Whitney has a knack for analytics and is driven towards results. While at The Embassy Row Hotel, she developed several enhanced reports to help understand booking patterns and profit optimization. Whitney was able to collaborate with all department heads in solving problems like labor management, cost control and forecast accuracy. She's very bright, funny and charismatic and I would happily recommend her for any organization looking for an all-star performer with a great attitude.",
@@ -48,7 +48,7 @@
     {
         "id": 5,
         "name": "Dennis Hernandez",
-        "img": "https://www.linkedin.com/in/heyitsmedennis/",
+        "img": "/recs/Dennis Hernandez.jpg",
         "title": "Valor Hospitality Partners - Director, Sales & Marketing",
         "date": "Decemer 26, 2015",
         "recommendation": "I want to recommend Whitney Koslik to an organization that is prepared to listen and embrace a bright young insightful talent that is Whitney Koslik. Whitney's combined knowledge of front office/reservations and revenue management is the foundation to which Whitney is able to make very quick and impactful decisions when faced with challenge and opportunity that results in ROI. The organization that has her on their team has already taken the right step towards success. Cheers Whitney hope to work with you again in the very near future.",
@@ -57,7 +57,7 @@
     {
         "id": 6,
         "name": "Jennifer Hill",
-        "img": "./resources/imgs/Jennifer Hill.jpg",
+        "img": "/recs/Jennifer Hill.jpg",
         "title": "VP, Client Solutions at Kalibri Labs | Commercial Strategist | CRME, CHIA",
         "date": "June 8, 2015",
         "recommendation": "Whitney is a smart, hardworking, detail-oriented and results-driven professional. She is creative and always willing to try something new in an effort to maximize revenue. Whitney excelled at efficiently completing complex tasks and projects and meeting tight deadlines. She was a pleasure to work with!",
@@ -66,7 +66,7 @@
     {
         "id": 7,
         "name": "Cindy Bradshaw",
-        "img": "./resources/imgs/Cindy Bradshaw.jpg",
+        "img": "/recs/Cindy Bradshaw.jpg",
         "title": "Event Planning Manager at Hyatt Regency Orlando",
         "date": "November 13, 2009",
         "recommendation": "Whitney is very professional and detail oriented. I received many guest/meeting planner comments regarding her can-do attitude. If she did not know an answer for a guest - she would do whatever it takes to find the answer. She can think well on-her-feet!",
@@ -75,7 +75,7 @@
     {
         "id": 8,
         "name": "Dr. Michael Scantlebury",
-        "img": "./resources/imgs/Michael Scantlebury.jpg",
+        "img": "/recs/Michael Scantlebury.jpg",
         "title": "Associate Professor at Grand Valley State University",
         "date": "September 1, 2009",
         "recommendation": "Whitney is a hardworking, goal-oriented individual. She is creative and very attentive to detail, who is highly articulate.",
@@ -84,7 +84,7 @@
     {
         "id": 9,
         "name": "Bob Geller",
-        "img": "",
+        "img": "/recs/bob gellar.jpg",
         "title": "Director of Sales and Marketing at Atria Senior Living",
         "date": "August 28, 2009",
         "recommendation": "Although Whitney does not directly work for me or report to me, she does have a significant positive impact on our customers and guests. I have found Whitney to be pleasant, thorough in her work and always cordial to our guests. She is always willing to take on more responsibility and is a fast learner.",
