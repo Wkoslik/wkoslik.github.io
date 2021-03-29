@@ -30,3 +30,7 @@ header {
 .rec{
   display: flex;
 }
+
+.rec-img img{
+  width: 200px;
+}
