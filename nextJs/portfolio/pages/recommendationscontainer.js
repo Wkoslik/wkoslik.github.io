@@ -11,7 +11,7 @@ export default function RecommendationsContainer() {
     return (
         <div>
             <h1>Recommendations</h1>
-            <Carousel autoPlay>
+            <Carousel autoPlay showThumbs={false}>
                 {allRecs}
             </Carousel>
         </div>
