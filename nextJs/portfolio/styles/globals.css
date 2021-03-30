@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -15,18 +20,91 @@ a {
   box-sizing: border-box;
 }
 
+.turn-pink{
+  color: #c14971;
+}
+
+/* HEADER STYLING */
+
 header {
   background: linear-gradient(rgba(18, 60, 105, .3), rgba(18, 60, 105, .3)), url('/headertexture.jpg');
   background-size: cover;
   color: #f8f4f1;
   display: flex;
-  width: 100%
+  width: 100%;
+  height: 150px;
+}
+
+.header-details > h1{
+  font-size: 64px;
+}
+
+.links{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  width: 100%;
+  margin-top: 32px;
+}
+
+.links > li{
+  padding: 8px;
+  border-radius: 20px;
+  transition: 500ms ease-in-out;
+}
+
+.links > li:hover{
+  cursor: pointer;
+  font-size: larger;
+  color:rgba(18, 60, 105, 1);
+  background-color: rgba(248, 244, 241, .8);
+}
+
+.header-details{
+  text-align: center;
+  position: absolute;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+#initials{
+  margin: 32px;
+  width: 100px;
 }
 
 .non-partials-container{
   max-width: 600px;
   margin: 0 auto;
 }
+
+/*ABOUT Section */
+
+.about-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+}
+
+.about-img, .about-details{
+  width: 50%;
+  padding: 8px;
+  text-align: center;
+}
+
+.about-details{
+  height: fit-content;
+}
+
+#headshot{
+  border-radius: 100%;
+  max-width: 100%;
+}
+
 .rec{
   height: 100%;
   background-color: black;
