@@ -5,10 +5,13 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  background-color: rgba(248, 244, 241, .8);
 }
 
 h1, h2, h3, h4, h5, h6{
   font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-weight: 900;
 }
 
 a {
@@ -24,19 +27,29 @@ a {
   color: #c14971;
 }
 
+.turn-white{
+  color: #f8f4f1;
+}
+
 /* HEADER STYLING */
+
 
 header {
   background: linear-gradient(rgba(18, 60, 105, .3), rgba(18, 60, 105, .3)), url('/headertexture.jpg');
   background-size: cover;
   color: #f8f4f1;
   display: flex;
+  align-items: center;
   width: 100%;
-  height: 150px;
+  height: 250px;
+  position: absolute;
+  top: 0;
 }
 
 .header-details > h1{
-  font-size: 64px;
+  font-size: 42px;
+  max-height: 100%;
+  margin-bottom: 16px;
 }
 
 .links{
@@ -45,7 +58,7 @@ header {
   justify-content: center;
   padding: 0;
   width: 100%;
-  margin-top: 32px;
+  margin: 0;
 }
 
 .links > li{
@@ -81,13 +94,30 @@ header {
   margin: 0 auto;
 }
 
+.sticky{
+  background-color:rgba(18, 60, 105, .8);
+  color: #f8f4f1;
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  padding: 8px;
+}
+
 /*ABOUT Section */
+
+#about{
+  margin-top: 300px;
+  padding-top: 100px;
+}
 
 .about-container{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 64px;
+  padding: 32px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 15px 5px rgb(193, 73, 113); 
+  box-shadow: 0px 0px 15px 5px #c14971;
 }
 
 .about-img, .about-details{
@@ -105,10 +135,64 @@ header {
   max-width: 100%;
 }
 
-.rec{
-  height: 100%;
-  background-color: black;
+/* Projects */
+
+#projects{
+  margin-top: 50px;
+  padding-top: 100px;
+}
+
+
+.project{
+  display: flex;
+  padding: 32px;
+  margin: 8px;
+  border: 1px solid rgba(18, 60, 105, 1);
+}
+
+.project-image, .project-details{
+  width: 50%;
+}
+
+.project-image{
+  display: flex;
+  align-items: center;
+  
+}
+
+.project-image > img{
+  max-width: 200px;
+}
+
+.project-details > h3, .url{
+  text-decoration: underline;
+}
+
+.url{
+  padding: 8px;
+  border-radius: 20px;
+  transition: 500ms ease-in-out;
+}
+
+.url:hover{
+  cursor: pointer;
+  font-size: larger;
+  color: #f8f4f1;
+  background-color: rgba(193, 73, 113, .8);
+}
+
+
+/* Recommendations */
+
+.carousel .control-dots{
+  position: static !important;
+}
+
+.rec, .carousel-slider{
   color: white;
+  background-color: black;
+  max-height: fit-content;
+  padding: 32px;
 }
 
 .rec-img, .rec-details{
@@ -123,10 +207,24 @@ header {
 
 .rec-img img{
   max-width: 200px;
+  border-radius: 100%;
 }
 
 .name-title{
   text-align: center;
   width: 100%;
   padding: 8px;
+}
+
+
+/* Footer */
+
+footer{
+  margin-top: 64px;
+  text-align: center;
+  padding: 32px;
+}
+
+footer > a {
+  padding: 16px;
 }

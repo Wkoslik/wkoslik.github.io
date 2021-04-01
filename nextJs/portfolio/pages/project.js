@@ -1,9 +1,14 @@
-export default function Project(props){
+export default function Project(props) {
     return (
         <div className="project">
-            <img src={props.img} />
-            <h3>{props.name}</h3>
-            <p className="shortdesc">{props.shortdesc}</p>
+            <div className="project-image">
+                <img src={props.img} alt={props.name} />
+            </div>
+            <div className="project-details">
+                <h3 className="turn-pink">{props.name}</h3>
+                <p className="shortdesc">{props.shortdesc}</p>
+                <a href={props.url} className="url" target="_blank">{props.live}</a>
+            </div>
         </div>
     )
 }

@@ -3,26 +3,29 @@
         {
             "id": 0,
             "name": "ChiknTindr",
-            "img": "http://placekitten.com/200/200",
-            "short_description": "This is a short description for ChiknTindr",
+            "img": "/project_img/iconRed.png",
+            "short_description": "ChiknTindir is a MERN full-stack app designed to allow you to end the egg-scruciating conversation of where you and your friends want to go to dinner. Game. Set. Match. Eat.",
             "long_description": "This is a long description for ChiknTindr",
-            "url": ""
+            "url": "https://chikntindr.netlify.app/",
+            "live": "Live Demo!"
         },
         {
             "id": 1,
             "name": "SoyVeg",
-            "img": "http://placekitten.com/200/200",
-            "short_description": "Short Desc",
+            "img": "/project_img/Screen Shot 2021-03-30 at 11.24.13 AM.png",
+            "short_description": "SoyVeg is a full-stack web applications utilizing NodeJs, ExpressJs, and a PostgreSQL database to target the Edamam API.",
             "long_description": "Long Desc",
-            "url": ""
+            "url": "https://soyveg.herokuapp.com/",
+            "live": "Live Demo!"
         },
         {
             "id": 2,
             "name": "Outsmart Data",
-            "img": "http://placekitten.com/200/200",
-            "short_description": "Short Desc",
+            "img": "/project_img/osd.png",
+            "short_description": "HTML, CSS, and JS  website for the consulting firm OutSmart Data.",
             "long_description": "Long Desc",
-            "url": ""
+            "url": "https://www.outsmartdata.com",
+            "live": "Live Site!"
         }
     ]
 }
