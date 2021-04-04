@@ -137,7 +137,7 @@ header {
 
 /* Projects */
 
-#projects{
+#projects, #recommendations{
   margin-top: 50px;
   padding-top: 100px;
 }
@@ -188,9 +188,17 @@ header {
   position: static !important;
 }
 
+/* .carousel .control-dots .dot.selected, .carousel . constrol-dots .dot:hover */
+
+/* .carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover{
+  color: red !important;
+} */
+
+.control-dots > .dot.selected {
+  color: red !important;
+}
+
 .rec, .carousel-slider{
-  color: white;
-  background-color: black;
   max-height: fit-content;
   padding: 32px;
 }

@@ -1,9 +1,7 @@
 export default function Recommendation(props) {
     return (
         <div className="rec">
-            <div className="rec-details">
-                <p>{props.rec}</p>
-            </div>
+
             <div className="rec-img">
                 <img src={props.img} alt={props.name} />
                 <div className="name-title">
@@ -11,6 +9,9 @@ export default function Recommendation(props) {
                     <h5>{props.title}</h5>
                     <h5>{props.date}</h5>
                 </div>
+            </div>
+            <div className="rec-details">
+                <p>{props.rec}</p>
             </div>
         </div>
     )

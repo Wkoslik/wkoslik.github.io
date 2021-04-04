@@ -10,7 +10,7 @@ export default function RecommendationsContainer() {
 
     return (
         <div id="recommendations">
-            <h1>Recommendations</h1>
+            <h2>What all the <span className="turn-pink">cool kids</span> are saying...</h2>
             <Carousel autoPlay showThumbs={false} infiniteLoop={true} interval={4000}>
                 {allRecs}
             </Carousel>
