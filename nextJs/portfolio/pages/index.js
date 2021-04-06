@@ -4,6 +4,7 @@ import ProjectsContainer from './projectscontainer'
 import RecommendationsContainer from './recommendationscontainer'
 import Footer from './partials/Footer'
 import Nav from './partials/Nav'
+import Contact from './contact'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <About />
         <ProjectsContainer />
         <RecommendationsContainer />
+        <Contact />
       </div>
       <Footer />
     </div>
