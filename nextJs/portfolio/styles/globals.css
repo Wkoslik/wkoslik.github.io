@@ -137,7 +137,7 @@ header {
 
 /* Projects */
 
-#projects, #recommendations{
+#projects, #recommendations, #connect{
   margin-top: 50px;
   padding-top: 100px;
 }
@@ -231,6 +231,42 @@ header {
   padding: 8px;
 }
 
+/*Connect*/
+
+.contact-inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name, .email{
+  width: 45%;
+}
+
+.subject, .message{
+  width: 100%;
+}
+
+.form-control{
+  margin: 4px;
+  padding: 16px;
+  border: none;
+  border-radius: 20px;
+}
+
+.submit-recaptcha{
+  padding: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.submit-btn{
+  padding: 16px;
+  background-color: #c14971;
+  color:rgba(248, 244, 241, 1);
+  height: 100%;
+}
 
 /* Footer */
 
