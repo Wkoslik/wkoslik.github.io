@@ -8,7 +8,7 @@ export default function About() {
             </div>
             <div className="about-details">
                 <h2>Hi! I'm <span className="turn-pink">Whitney</span>.</h2>
-                <p>I am a full stack web developer who focuses on creative solutions hrough active communication, adaptability, and critical thinking.</p>
+                <p>I am a full stack web developer who focuses on creative solutions through active communication, adaptability, and critical thinking.</p>
             </div>
             </div>
         </div>

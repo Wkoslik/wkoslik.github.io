@@ -1,7 +1,6 @@
 export default function Recommendation(props) {
     return (
         <div className="rec">
-
             <div className="rec-img">
                 <img src={props.img} alt={props.name} />
                 <div className="name-title">
