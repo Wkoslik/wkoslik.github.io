@@ -57,7 +57,6 @@ const Contact = (props) => {
                             <div className="submit-recaptcha">
                                 <Recaptcha
                                     sitekey={process.env.NEXT_PUBLIC_CAPTCHA_SITE_KEY}
-                                    // sitekey='111111111'
                                     render="explicit"
                                     onloadCallback={recaptchaLoaded}
                                     verifyCallback={verifiedRecaptcha}

@@ -49,6 +49,8 @@ a {
   background-color: rgba(193, 73, 113, .8);
   text-shadow: 3px 0px 2px rgba(18, 60, 105, 1);
   font-size: larger;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
 /* HEADER STYLING */
@@ -119,6 +121,8 @@ header {
   top: 0;
   z-index: 4;
   padding: 8px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
 /*ABOUT Section */
@@ -136,6 +140,8 @@ header {
   padding: 32px;
   background-color: rgba(193, 73, 113, .3);
   color:rgba(18, 60, 105, 1);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
 .about-img, .about-details{
@@ -166,6 +172,8 @@ header {
   margin: 8px;
   border: 1px solid rgba(18, 60, 105, 1);
   border-radius: 20px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
 .project-image, .project-details{
@@ -205,6 +213,8 @@ header {
   background-color: rgba(193, 73, 113, .3);
   border-radius: 20px;
   color:rgba(18, 60, 105, 1);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
 .name-title > h4{
@@ -259,6 +269,8 @@ header {
   border: 1px solid rgba(18, 60, 105, 1);
   border-radius: 20px;
   padding: 8px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
 .contact-inputs {
@@ -302,6 +314,8 @@ footer{
   padding: 32px;
   background-color:rgba(18, 60, 105, .8);
   color: #f8f4f1;
+  -webkit-box-shadow: 0px 10px 13px 7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 10px 13px 7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
 .footer {
