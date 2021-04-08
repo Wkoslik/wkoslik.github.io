@@ -4,7 +4,7 @@ export default function About() {
         <div id="about">
         <div className="about-container">
             <div className="about-img">
-                <img src='/whitneyKoslik.jpg' alt="Whitney Koslik" id="headshot" />
+                <img src='/WhitneyKoslik.jpg' alt="Whitney Koslik" id="headshot" />
             </div>
             <div className="about-details">
                 <h2>Hi! I'm <span className="turn-pink">Whitney</span>.</h2>
