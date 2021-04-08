@@ -1,4 +1,3 @@
-import Header from './partials/Header'
 import About from './about'
 import ProjectsContainer from './projectscontainer'
 import RecommendationsContainer from './recommendationscontainer'
