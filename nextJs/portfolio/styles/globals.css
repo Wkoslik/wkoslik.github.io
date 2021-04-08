@@ -403,4 +403,17 @@ footer{
   .header-name > h1{
     display: none;
   }
+
+  .about-container, .project, #recommendations, .connect{
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .about-img{
+    display: none;
+  }
+
+  .about-details{
+    width: 95%;
+  }
 }
