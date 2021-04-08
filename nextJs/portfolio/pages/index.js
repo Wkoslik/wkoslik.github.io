@@ -5,12 +5,13 @@ import RecommendationsContainer from './recommendationscontainer'
 import Footer from './partials/Footer'
 import Nav from './partials/Nav'
 import Contact from './contact'
+import Hamburger from './partials/Menu'
 
 export default function Home() {
   return (
     <div className="components-container">
+    <Hamburger />
       <Nav />
-      <Header />
       <div className="non-partials-container">
         <About />
         <ProjectsContainer />
