@@ -58,9 +58,11 @@ const Contact = (props) => {
                                 <Recaptcha
                                     sitekey={process.env.NEXT_PUBLIC_CAPTCHA_SITE_KEY}
                                     render="explicit"
+                                    data-size="compact"
                                     onloadCallback={recaptchaLoaded}
                                     verifyCallback={verifiedRecaptcha}
-                                    className="hover"
+                                    className="hover recaptcha-form"
+                                    
                                 />
                                 <input type="submit" value="Send Message" className="submit-btn btn hover"></input>
                             </div>

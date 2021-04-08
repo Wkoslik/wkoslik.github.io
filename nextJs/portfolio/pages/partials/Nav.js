@@ -1,15 +1,25 @@
+import Hamburger from './Menu'
+import Head from 'next/head'
+
 export default function Nav() {
     return (
         <nav className="sticky">
-            <ul className="links">
-                <li className="btn hover"><a href="https://docs.google.com/document/d/e/2PACX-1vTgSmJGZ7ZtIWcbvPKRuhcEd08XXzL1Ga2-YKjEPvLvFxK5WCkTmC4VlGIokjNNxayCiEwzT3SW2pvC/pub" target="_blank">Resume</a></li>
-                <li className="btn hover"><a href="#about">About</a></li>
-                <li className="btn hover"><a href="#projects">Projects</a></li>
-                <li className="btn hover"><a href="#recommendations">Recommendations</a></li>
-                <li className="btn hover"><a href="#connect">Connect</a></li>
-                <li className="btn hover"><a href="https://www.linkedin.com/in/wkoslik/" target="_blank" >LinkedIn</a></li>
-                <li className="btn hover"><a href="https://github.com/wkoslik" target="_blank">GitHub</a></li>
-            </ul>
+            <Head>
+                <title>Whitney Koslik</title>
+                <meta charSet="utf-8" />
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <link rel="icon" href='/initials_header_black_0ij_icon.ico'></link>
+                <script src="https://www.google.com/recaptcha/api.js?&render=explicit" async defer></script>
+            </Head>
+            <header>
+                <div className="header-image">
+                    <img src='/initialsheader.png' alt="Whitney Kosliks initials- wk" id="initials" />
+                </div>
+                <div className="header-name">
+                    <h1>Whitney Koslik</h1>
+                </div>
+                <div className="header-ham"></div>
+            </header>
         </nav>
     )
 }
