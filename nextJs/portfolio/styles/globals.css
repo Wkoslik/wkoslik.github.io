@@ -202,8 +202,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /*ABOUT Section */
 
 #about{
-  margin-top: 50px;
-  padding-top: 100px;
+  margin-top: 25px;
+  padding-top: 125px;
 }
 
 .about-container{
@@ -236,8 +236,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Projects */
 
 #projects{
-  margin-top: 50px;
-  padding-top: 100px;
+  margin-top: 25px;
+  padding-top: 125px;
 }
 
 .project{
@@ -279,8 +279,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Recommendations */
 
 #recommendations{
-  margin-top: 50px;
-  padding-top: 100px;
+  margin-top: 25px;
+  padding-top: 125px;
 }
 
 .carousel .control-dots{
@@ -344,8 +344,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /*Connect*/
 
 #connect{
-  margin-top: 50px;
-  padding-top: 100px;
+  margin-top: 25px;
+  padding-top: 125px;
 }
 
 
@@ -412,8 +412,8 @@ footer{
   }
 
   #about, #projects, #recommendations, #connect{
-    margin-top: 25px;
-    padding-top: 50px;
+    /* margin-top: 25px; */
+    padding-top: 125px;
   }
 
   .about-container, .project, #recommendations, .connect{
