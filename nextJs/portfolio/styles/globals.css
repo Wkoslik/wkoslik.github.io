@@ -68,10 +68,16 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  width: 100%;
 }
 
-.header-image, .header-name, .header-ham{
-  width: 33.3%;
+.header-name{
+  width: 50%;
+  max-height: 100%;
+} 
+
+.header-image, .header-ham{
+  width: 25%;
   max-height: 100%;
 }
 
@@ -115,6 +121,7 @@ header {
   -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
   box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
   height: 100px;
+  z-index: 999;
 }
 
 
@@ -400,8 +407,13 @@ footer{
 }
 
 @media screen and (max-width: 600px) {
-  .header-name > h1{
+  .header-name{
     display: none;
+  }
+
+  #about, #projects, #recommendations, #connect{
+    margin-top: 25px;
+    padding-top: 50px;
   }
 
   .about-container, .project, #recommendations, .connect{
@@ -416,4 +428,44 @@ footer{
   .about-details{
     width: 95%;
   }
+
+  .project{
+    margin-bottom: 22px;
+    display: block;
+  }
+
+  .project-image, .project-details{
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .project-image > img{
+    margin: 0 auto;
+    max-width: 160px;
+  }
+
+  .rec{
+    padding: 16px;
+  }
+
+  .rec-img{
+    display: block;
+  }
+
+  .submit-recaptcha{
+    display: block;
+    overflow-x: auto;
+  }
+
+  div.rc-anchor-normal{
+  transform: scale(0.8) !important;
+  -webkit-transform:scale(0.8) !important;
+  }
+
+  .submit-btn{
+    margin-top: 8px;
+  }
+
 }
+
+/* TODO: fix nav bar under 410px */
