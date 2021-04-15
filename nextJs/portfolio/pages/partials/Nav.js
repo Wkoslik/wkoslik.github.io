@@ -9,6 +9,7 @@ export default function Nav() {
                 <meta charSet="utf-8" />
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <link rel="icon" href='/initials_header_black_0ij_icon.ico'></link>
+                <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Fredericka+the+Great&display=swap" rel="stylesheet"/>
                 <script src="https://www.google.com/recaptcha/api.js?&render=explicit" async defer></script>
             </Head>
             <header>
