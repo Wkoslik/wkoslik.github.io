@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 html,
 body {
@@ -467,4 +468,22 @@ footer{
 
 }
 
-/* TODO: fix nav bar under 410px */
+.forbidden_island, .forbidden_island >h1{
+  text-align: center;
+  padding: 16px;
+  font-size: 72px;
+  font-family: "Fredericka the Great", sans-serif;
+  margin-bottom: 0;
+}
+
+.forbidden_island > a {
+  font-size: 36px;
+}
+
+.forbidden_island > a:hover {
+  font-size: 42px;
+}
+
+.forbidden_island > p {
+  font-size: 22px;
+}
