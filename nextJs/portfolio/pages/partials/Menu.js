@@ -8,7 +8,7 @@ const Hamburger = (props) => {
                 <li className="btn hover"><a href="#about">About</a></li>
                 <li className="btn hover"><a href="#projects">Projects</a></li>
                 <li className="btn hover"><a href="#recommendations">Recommendations</a></li>
-                <li className="btn hover"><a href="#connect">Connect</a></li>
+                {/* <li className="btn hover"><a href="#connect">Connect</a></li> */}
                 <li className="btn hover"><a href="https://www.linkedin.com/in/wkoslik/" target="_blank" >LinkedIn</a></li>
                 <li className="btn hover"><a href="https://github.com/wkoslik" target="_blank">GitHub</a></li>
             </ul>
