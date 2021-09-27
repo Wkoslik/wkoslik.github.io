@@ -4,7 +4,7 @@ const Hamburger = (props) => {
     return (
         <Menu right>
             <ul className="links">
-                <li className="btn hover"><a href="https://docs.google.com/document/d/e/2PACX-1vTgSmJGZ7ZtIWcbvPKRuhcEd08XXzL1Ga2-YKjEPvLvFxK5WCkTmC4VlGIokjNNxayCiEwzT3SW2pvC/pub" target="_blank">Resume</a></li>
+                <li className="btn hover"><a href="https://docs.google.com/document/d/e/2PACX-1vQjcQ_SEg9cyJ9lR6Ehq9OFpWO3Sex6L8ErYijPnuJxqj_KYHcUcqdUkuLfV6vNu-Jw0Rirq4XwuTHR/pub" target="_blank">Resume</a></li>
                 <li className="btn hover"><a href="#about">About</a></li>
                 <li className="btn hover"><a href="#projects">Projects</a></li>
                 <li className="btn hover"><a href="#recommendations">Recommendations</a></li>
